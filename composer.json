@@ -1,0 +1,17 @@
+{
+    "name": "yggverse/yo-tools",
+    "description": "PHP 8 / Composer library for Yo Search",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yggverse\\YoTools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "YGGverse"
+        }
+    ],
+    "require": {}
+}
