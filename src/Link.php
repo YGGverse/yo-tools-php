@@ -16,9 +16,9 @@ class Link
     {
         if (!parse_url($target, PHP_URL_HOST))
         {
-            $scheme = parse_url($base, PHP_URL_SCHEME);
-            $host   = parse_url($base, PHP_URL_HOST);
-            $port   = parse_url($base, PHP_URL_PORT);
+            $scheme = parse_url($source, PHP_URL_SCHEME);
+            $host   = parse_url($source, PHP_URL_HOST);
+            $port   = parse_url($source, PHP_URL_PORT);
 
             return $scheme . '://' . $host . ($port ? ':' . $port : null) .
             '/' .
